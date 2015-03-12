@@ -109,5 +109,5 @@ STATIC_URL = '/static/'
 LOGIN_REDIRECT_URL = '/'
 
 TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, 'templates')
+    os.path.join(BASE_DIR, 'templates'),
 )
